@@ -1,0 +1,15 @@
+/* form.css */
+
+/* Apply styles to form elements (input fields, buttons, etc.) */
+/* Example: */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Additional styles specific to the form elements page */

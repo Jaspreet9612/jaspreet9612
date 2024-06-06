@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/user_profile.css">
+    <!-- Add other CSS files if needed -->
+    <title>User Profile</title>
+    <style>
+        /* Inline styles for the user profile page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .user-info {
+            max-width: 400px;
+            padding: 20px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+
+        p {
+            color: #555;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="user-info">
+        <h1>Your User Profile</h1>
+        <img src="profile_picture.jpg" alt="User Profile Picture">
+        <p><strong>Name:</strong> Jaspreet Singh</p>
+        <p><strong>Email:</strong> jaspreetsingh3421@gmail.com</p>
+        <p><strong>Location:</strong> 86 Leacrest Street, Brampton, Ontario, Canada</p>
+        <p><strong>Purchase History:</strong> View your past bike purchases and track delivery status.</p>
+        <p><strong>Saved Searches:</strong> Bookmark bikes you're interested in for quick access.</p>
+        <p><strong>Preferences:</strong> Customize your experience by setting your preferred bike types and brands.</p>
+        <a href="edit_profile.html"><input type="submit" value="Edit Profile"></a>
+    </div>
+</body>
+</html>
