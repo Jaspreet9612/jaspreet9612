@@ -8,33 +8,109 @@
     <!-- Add other CSS files if needed -->
     <title>Bike Listings</title>
     <style>
-        /* Additional styling for bike cards */
-        .bike-card {
-            padding: 20px;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
+       /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
 
-        /* Customize individual cards */
-        .bike-card:nth-child(1) {
-            background-color: DodgerBlue;
-            color: white;
-            border: 2px solid Violet;
-        }
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 80px; /* Space for fixed navbar */
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
 
-        .bike-card:nth-child(2) {
-            background-color: Tomato;
-            color: white;
-            border: 2px solid MediumSeaGreen;
-        }
+nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
 
-        /* Add more styles for other bike cards as needed */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
 
-        /* Center align h1 */
-        h1 {
-            text-align: center;
-        }
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Bike card styles */
+.bike-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bike-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bike-card h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.bike-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Customize individual cards */
+.bike-card:nth-child(1) {
+    background-color: DodgerBlue;
+    color: white;
+    border: 2px solid Violet;
+}
+
+.bike-card:nth-child(2) {
+    background-color: Tomato;
+    color: white;
+    border: 2px solid MediumSeaGreen;
+}
+
+.bike-card:nth-child(3) {
+    background-color: MediumSeaGreen;
+    color: white;
+    border: 2px solid Tomato;
+}
+
+.bike-card:nth-child(4) {
+    background-color: Violet;
+    color: white;
+    border: 2px solid DodgerBlue;
+}
+
     </style>
 </head>
 <body>
@@ -44,11 +120,11 @@
             <li><a href="form.html">Form Elements</a></li>
             <li><a href="bike_listings.html">Bike Listings</a></li>
             <li><a href="user_profile.html">User Profile</a></li>
+            <li><a href="aboutme.html"></a>About me</a></li>
         </ul>
     </nav>
     <h1>Explore Bike Listings</h1>
 
-    <!-- Sample Bike Listings -->
     <div class="bike-card">
         <img src="<img loading="lazy" decoding="async" src="https://thebikedads.com/wp-content/uploads/2023/07/Polygon-Xtrada-24.jpg" width="784" height="434" srcset="https://thebikedads.com/wp-content/uploads/2023/07/Polygon-Xtrada-24.jpg 784w, https://thebikedads.com/wp-content/uploads/2023/07/Polygon-Xtrada-24-300x166.jpg 300w, https://thebikedads.com/wp-content/uploads/2023/07/Polygon-Xtrada-24-768x425.jpg 768w" sizes="(max-width: 784px) 100vw, 784px" title="Polygon Xtrada 24" alt="" class="so-widget-image">
         <h2>Mountain Bike X1</h2>
