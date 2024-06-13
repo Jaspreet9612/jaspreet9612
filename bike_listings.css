@@ -1,14 +1,101 @@
-/* bike_listings.css */
-
-/* Apply styles to bike listings (cards, images, details) */
-/* Example: */
-.bike-card {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
 }
 
-/* Additional styles specific to the bike listings page */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 80px; /* Space for fixed navbar */
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+/* Bike card styles */
+.bike-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.bike-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.bike-card h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 15px 0;
+}
+
+.bike-card p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Customize individual cards */
+.bike-card:nth-child(1) {
+    background-color: DodgerBlue;
+    color: white;
+    border: 2px solid Violet;
+}
+
+.bike-card:nth-child(2) {
+    background-color: Tomato;
+    color: white;
+    border: 2px solid MediumSeaGreen;
+}
+
+.bike-card:nth-child(3) {
+    background-color: MediumSeaGreen;
+    color: white;
+    border: 2px solid Tomato;
+}
+
+.bike-card:nth-child(4) {
+    background-color: Violet;
+    color: white;
+    border: 2px solid DodgerBlue;
+}
